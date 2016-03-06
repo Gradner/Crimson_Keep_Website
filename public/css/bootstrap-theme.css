@@ -363,15 +363,8 @@ fieldset[disabled] .btn-danger.active {
   text-shadow: 0 1px 0 rgba(255, 255, 255, .25);
 }
 .navbar-inverse {
-  background-image: -webkit-linear-gradient(top, #52362F 0%, #52362F 100%);
-  background-image:      -o-linear-gradient(top, #52362F 0%, #52362F 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#52362F), to(#52362F));
-  background-image:         linear-gradient(to bottom, #52362F 0%, #52362F 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
-  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-  background-repeat: repeat-x;
+  background-color: rgba(82, 54, 47, 0.80);
   border-radius: 0px;
-  opacity: 0.8;
   filter: alpha(opacity=80);
 }
 .navbar-inverse .navbar-nav > .open > a,

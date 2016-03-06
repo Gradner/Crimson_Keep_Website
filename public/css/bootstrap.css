@@ -1097,7 +1097,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #ECECEB;
   text-decoration: none;
 }
 a:hover,
@@ -4963,8 +4963,7 @@ a.badge:focus {
   padding-bottom: 15px;
   margin-bottom: 50px;
   color: inherit;
-  background-color: #52362F;
-  opacity: 0.9;
+  background-color: rgba(82, 54, 47, 0.9);
 }
 .jumbotron h1,
 .jumbotron .h1 {

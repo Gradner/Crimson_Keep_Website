@@ -1,23 +1,53 @@
 body {
-  margin: 0;
-  background: #000; 
+  background: url('../images/crimsonkeep_bg.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 video {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
- background: url('/images/crimsonkeep_bg.jpg') no-repeat;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+ background: url('../images/crimsonkeep_bg.jpg') no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   transition: 1s opacity;
 }
 
 a {
   color: #00B7FF;
+}
+
+h2 {
+  color: white !important;
+}
+
+.gradnerbox {
+  font-size: 12px;
+  line-height: 10px;
+  color: white;
+  padding: 5px;
+  padding-bottom: -5px;
+  display: inline-block;
+  float: right;
+  background-color: rgba(82, 54, 47, 0.80);
+  border-radius: 6px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 960px){
+  .video_bg {
+    display: none;
+  }
 }
